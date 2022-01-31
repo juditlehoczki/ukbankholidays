@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Edit Screen renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={Object {}}
+    onLayout={[Function]}
+    style={Object {}}
+  >
+    <View
+      dataSet={Object {}}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "marginTop": 20,
+          "width": "83.333%",
+        }
+      }
+    >
+      <Text
+        dataSet={Object {}}
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#404040",
+            "fontFamily": undefined,
+            "fontSize": 20,
+            "fontStyle": "normal",
+            "fontWeight": "700",
+            "letterSpacing": 0,
+            "lineHeight": 25,
+            "textAlign": "center",
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        Test Title
+      </Text>
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "height": 8,
+          }
+        }
+      />
+      <Text
+        dataSet={Object {}}
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#404040",
+            "fontFamily": undefined,
+            "fontSize": null,
+            "fontStyle": "normal",
+            "fontWeight": "700",
+            "letterSpacing": 0,
+            "lineHeight": 30,
+            "textAlign": "center",
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        30 January 2022
+      </Text>
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "height": 8,
+          }
+        }
+      />
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          dataSet={Object {}}
+          feedbackId="field-react-aria-1-feedback"
+          hasFeedbackText={false}
+          hasHelpText={false}
+          helpTextId="field-react-aria-1-helptext"
+          isDisabled={false}
+          isInvalid={false}
+          isReadOnly={false}
+          isRequired={false}
+          labelId="field-react-aria-1-label"
+          nativeID="field-react-aria-1-label"
+          setHasFeedbackText={[Function]}
+          setHasHelpText={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginBottom": 8,
+              "marginRight": 12,
+            }
+          }
+        >
+          <Text
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": undefined,
+                "color": "#1f2937",
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontStyle": "normal",
+                "fontWeight": "500",
+                "letterSpacing": 0,
+                "lineHeight": 21,
+                "textDecorationLine": undefined,
+              }
+            }
+          >
+            Notes
+          </Text>
+        </View>
+        <TextInput
+          accessible={true}
+          allowFontScaling={true}
+          dataSet={Object {}}
+          disabled={false}
+          editable={true}
+          isRequired={false}
+          multiline={true}
+          nativeID="field-react-aria-1"
+          numberOfLines={4}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Notes"
+          placeholderTextColor="#a3a3a3"
+          readOnly={false}
+          rejectResponderTermination={true}
+          required={false}
+          secureTextEntry={false}
+          selectionColor="#1f2937"
+          style={
+            Array [
+              Object {
+                "borderColor": "#e5e5e5",
+                "borderRadius": 4,
+                "borderWidth": 1,
+                "color": "#1f2937",
+                "fontFamily": undefined,
+                "fontSize": 12,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "height": 200,
+                "overflow": "hidden",
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+                "width": undefined,
+              },
+              Object {},
+            ]
+          }
+          textAlignVertical="top"
+          underlineColorAndroid="transparent"
+          value="Test Notes"
+        />
+      </View>
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "height": 8,
+          }
+        }
+      />
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          accessibilityRole="checkbox"
+          accessibilityState={
+            Object {
+              "checked": false,
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            dataSet={Object {}}
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+              }
+            }
+          >
+            <View
+              dataSet={Object {}}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                dataSet={Object {}}
+                style={
+                  Object {
+                    "borderRadius": 9999,
+                    "height": "100%",
+                    "paddingBottom": 20,
+                    "paddingLeft": 20,
+                    "paddingRight": 20,
+                    "paddingTop": 20,
+                    "position": "absolute",
+                    "width": "100%",
+                    "zIndex": -1,
+                  }
+                }
+              />
+              <View
+                checked={false}
+                colorScheme="orange"
+                dataSet={Object {}}
+                defaultIsChecked={false}
+                disabled={false}
+                feedbackId="field-react-aria-2-feedback"
+                hasFeedbackText={false}
+                hasHelpText={false}
+                helpTextId="field-react-aria-2-helptext"
+                isDisabled={false}
+                isRequired={false}
+                labelId="field-react-aria-2-label"
+                nativeID="field-react-aria-2"
+                onChange={[Function]}
+                required={false}
+                setHasFeedbackText={[Function]}
+                setHasHelpText={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#fafafa",
+                    "borderColor": "#d4d4d4",
+                    "borderRadius": 4,
+                    "borderWidth": 2,
+                    "display": "flex",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <View
+                  dataSet={Object {}}
+                  style={
+                    Object {
+                      "color": "#fafafa",
+                      "height": 16,
+                      "width": 16,
+                    }
+                  }
+                />
+              </View>
+            </View>
+            <Text
+              dataSet={Object {}}
+              style={
+                Object {
+                  "backgroundColor": undefined,
+                  "color": "#000000",
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontStyle": "normal",
+                  "fontWeight": "400",
+                  "letterSpacing": 0,
+                  "lineHeight": 24,
+                  "marginLeft": 8,
+                  "textDecorationLine": undefined,
+                }
+              }
+            >
+              Bunting
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "height": 8,
+          }
+        }
+      />
+      <View
+        _text={
+          Object {
+            "color": "darkText",
+          }
+        }
+        accessibilityRole="button"
+        accessible={true}
+        collapsable={false}
+        colorScheme="primary"
+        dataSet={Object {}}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onHoverIn={[Function]}
+        onHoverOut={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fdba74",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 8,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 8,
+            "width": "33.333%",
+          }
+        }
+      >
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            dataSet={Object {}}
+            style={Object {}}
+          >
+            <Text
+              dataSet={Object {}}
+              style={
+                Object {
+                  "backgroundColor": undefined,
+                  "color": "#000000",
+                  "fontFamily": undefined,
+                  "fontSize": 14,
+                  "fontStyle": "normal",
+                  "fontWeight": "500",
+                  "letterSpacing": 0,
+                  "lineHeight": 21,
+                  "textDecorationLine": undefined,
+                }
+              }
+            >
+              Save
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
