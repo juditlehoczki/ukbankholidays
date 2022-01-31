@@ -5,18 +5,43 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)"
+    ],
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
   },
   "dependencies": {
+    "@expo/vector-icons": "^12.0.5",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@reduxjs/toolkit": "^1.7.1",
+    "date-fns": "^2.28.0",
     "expo": "~44.0.0",
     "expo-status-bar": "~1.2.0",
+    "lottie-ios": "^3.2.3",
+    "lottie-react-native": "5.0.1",
+    "native-base": "^3.3.4",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.10.1",
+    "react-native-svg": "12.1.1",
+    "react-native-testing-library": "^6.0.0",
+    "react-native-web": "0.17.1",
+    "react-redux": "^7.2.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "jest": "^26.6.3",
+    "jest-expo": "^44.0.1",
+    "redux-mock-store": "^1.5.4"
   },
   "private": true
 }
